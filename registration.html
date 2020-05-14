@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+<title>Retro Fitness</title>
+ <!-- Instance 4: External Style Sheet -->
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+ 
+ <style>
+
+#myBtn {
+  width: 280px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: yellow;
+  color: white;
+  cursor: pointer;
+}
+#myBtn:hover {
+  background: #ddd;
+  color: white;
+}
+</style>
+
+<a href="index.html"><font color="yellow">Home |</font></a>
+<a href="benefits.html"><font color="yellow">Benefits |</font></a>
+<a href="registration.html"><font color="yellow">Registration </font></a> 
+
+</head>
+
+<body>
+<h1><font color="black">Membership Form</font></h1>
+ <table border="10">
+ <td>
+  <!-- Instance 3: Membership form / Form validated -->
+<form action="/action_page.php" method="post">
+ <font size="5" color="red"><label for="fname">First name:</label></font><br>
+  <input type="text" name="fname" required><br>
+  <font size="5" color="red"><label for="lname">Last name:</label></font><br>
+  <input type="text" name="lname" required><br>
+  <font size="5" color="red"><label for="pname">Phone Number:</label></font><br>
+  <input type="text" name="pname" required><br>
+  <font size="5" color="red"><label for="ename">Email Address:</label></font><br>
+  <input type="text" name="ename" required><br>
+  <font size="5" color="red"><label>Membership Duration:</label></font><br>
+  <input type="radio" id="month" name="duration" value="1">
+  <font size="5" color="yellow"><label for="1">1 Month</label></font><br>
+  <input type="radio" id="month" name="duration" value="2">
+  <font size="5" color="yellow"><label for="2">2 Months</label></font><br>
+  <input type="radio" id="month" name="duration" value="3">
+  <font size="5" color="yellow"><label for="3">3 Months</label><br></font>
+  <button id="myBtn" onClick= "myFunction()"><font color ="red">JOIN TODAY!</font></button>
+  </td>
+  </table>
+</form>
+
+</body>
+</html>
