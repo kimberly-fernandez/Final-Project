@@ -4,13 +4,26 @@ p{
 margin-left: 30px;
 color: yellow;
 }
-body
-{
-<!-- Instance 2: Image of the gym -->
+
+body {
 background-image: url('retroo.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;  
   background-size: cover;
   background-size: 100% 100%; 
+}
+
+#myBtn {
+  width: 280px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: yellow;
+  color: white;
+  cursor: pointer;
+}
+#myBtn:hover {
+  background: #ddd;
+  color: white;
 }
 </style>
